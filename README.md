@@ -18,3 +18,29 @@ Aplicaciones famosas que usan Kotlin
 * Trello
 * Evernote
 * Netflix
+-------------------------------------------------------------------------------------
+## Taller 2 - Arquitectura MVVM
+
+### Respuestas a Preguntas Conceptuales
+
+
+1.¿Qué problema resuelve el ViewModel?
+
+
+Evita que los datos se pierdan cuando la pantalla cambia (como al rotar) y separa la lógica de la interfaz.
+
+2. ¿Por qué LiveData es lifecycle-aware?
+
+Porque solo actualiza la pantalla cuando está activa, evitando errores y crashes.
+
+3. Flujo de datos en MVVM
+
+La Vista (Fragment) pide datos al ViewModel, el ViewModel los obtiene del Repository, y luego los muestra en la Vista.
+
+4. Ventaja de Fragments vs Activities
+
+Permiten usar varias pantallas en una sola Activity, haciendo la app más simple y flexible.
+
+5. ¿Para qué sirve el Repository?
+
+Centraliza los datos y facilita cambiar entre base de datos o internet sin afectar el resto del código.

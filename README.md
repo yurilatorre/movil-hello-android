@@ -44,3 +44,34 @@ Permiten usar varias pantallas en una sola Activity, haciendo la app más simple
 5. ¿Para qué sirve el Repository?
 
 Centraliza los datos y facilita cambiar entre base de datos o internet sin afectar el resto del código.
+
+
+----------------------------------------------------
+## TALLER 3
+En este taller se modifico la aplicacion para crear unaclista de tareas usando Fragments.
+La app permite agregar y ver tareas, y al tocarlas se pueden ver sus detalles o modificarla.
+Las tareas se guardan aunque se cierre la aplicación usando SharedPreferences.
+Usamos el recordatorio con notificación cuando se activa la opción correspondiente
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+--------------------------------------------------

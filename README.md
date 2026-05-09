@@ -48,6 +48,9 @@ Centraliza los datos y facilita cambiar entre base de datos o internet sin afect
 
 ----------------------------------------------------
 ## TALLER 3
+Yuriani Latorre 
+Jesus Palacios
+E193
 En este taller se modifico la aplicacion para crear unaclista de tareas usando Fragments.
 La app permite agregar y ver tareas, y al tocarlas se pueden ver sus detalles o modificarla.
 Las tareas se guardan aunque se cierre la aplicación usando SharedPreferences.
